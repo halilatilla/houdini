@@ -17,12 +17,11 @@ export const metadata: Metadata = {
     title: "Houdini Swap - Decentralized Cryptocurrency Exchange",
     description:
       "Securely swap cryptocurrencies with Houdini Swap. Fast, efficient, and private transactions across multiple chains.",
-    url: "https://houdiniswap.com",
+    url: "https://halil-atilla-houdini.vercel.app/",
     siteName: "Houdini Swap",
     images: [
       {
-        // TODO: change this actual url
-        url: "https://houdiniswap.com/api/og",
+        url: "https://halil-atilla-houdini.vercel.app/api/og",
         width: 1200,
         height: 630,
         alt: "Houdini Swap - Secure, Fast, Decentralized Cryptocurrency Exchange",
@@ -36,8 +35,7 @@ export const metadata: Metadata = {
     title: "Houdini Swap - Decentralized Cryptocurrency Exchange",
     description:
       "Securely swap cryptocurrencies with Houdini Swap. Fast, efficient, and private transactions across multiple chains.",
-    // TODO: change this actual url
-    images: ["https://houdiniswap.com/api/og"],
+    images: ["https://halil-atilla-houdini.vercel.app/api/og"],
     creator: "@halilatilla",
   },
 };

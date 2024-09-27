@@ -7,8 +7,7 @@ export const metadata: Metadata = {
     title: "Houdini Swap - Decentralized Cryptocurrency Exchange",
     images: [
       {
-        // change url
-        url: "https://houdiniswap.com/api/og?title=Houdini%20Swap%20-%20Home",
+        url: "https://halil-atilla-houdini.vercel.app/api/og?title=Houdini%20Swap%20-%20Home",
         width: 1200,
         height: 630,
         alt: "Houdini Swap - Home",
@@ -17,8 +16,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: "Houdini Swap - Home",
-    // change url
-    images: ["https://houdiniswap.com/api/og?title=Houdini%20Swap%20-%20Home"],
+    images: [
+      "https://halil-atilla-houdini.vercel.app/api/og?title=Houdini%20Swap%20-%20Home",
+    ],
   },
 };
 

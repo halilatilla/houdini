@@ -77,4 +77,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-For any inquiries, please reach out to [@halilatilla](https://twitter.com/halilatilla) on Twitter.
+For any inquiries, please reach out to [@halilatilla](https://twitter.com/@HalilAtilla10) on Twitter.

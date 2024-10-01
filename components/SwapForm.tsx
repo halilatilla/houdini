@@ -29,14 +29,8 @@ export function SwapForm() {
             >
               Swap Mode
             </Label>
-            <div className="flex items-center space-x-2 bg-gray-800 rounded-full p-1">
-              <span
-                className={`text-sm px-3 py-1 rounded-full transition-colors ${
-                  swapMode === "standard"
-                    ? "text-blue-400 bg-gray-700"
-                    : "text-gray-400"
-                }`}
-              >
+            <div className="flex items-center space-x-2">
+              <span className="text-sm text-gray-500 dark:text-gray-400">
                 Standard
               </span>
               <Switch
@@ -45,16 +39,9 @@ export function SwapForm() {
                 onCheckedChange={(checked) =>
                   setSwapMode(checked ? "private" : "standard")
                 }
-                className="hidden"
+                className="data-[state=checked]:bg-blue-600 dark:data-[state=checked]:bg-blue-400"
               />
-              <span
-                className={`text-sm px-3 py-1 rounded-full transition-colors ${
-                  swapMode === "private"
-                    ? "text-blue-400 bg-gray-700"
-                    : "text-gray-400"
-                }`}
-                onClick={() => setSwapMode("private")}
-              >
+              <span className="text-sm text-gray-500 dark:text-gray-400">
                 Private
               </span>
             </div>

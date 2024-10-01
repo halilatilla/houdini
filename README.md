@@ -2,6 +2,10 @@
 
 Houdini Swap is a decentralized cryptocurrency exchange platform built with Next.js. It offers secure, fast, and private transactions across multiple chains.
 
+![CleanShot 2024-10-01 at 20 59 51](https://github.com/user-attachments/assets/7bb8f26c-6297-4d68-a8b7-b20845682d28)
+
+
+
 ## Features
 
 - Decentralized cryptocurrency swapping

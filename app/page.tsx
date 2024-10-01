@@ -1,24 +1,25 @@
 import { SwapInterface } from "@/components/SwapInterface";
 import { Metadata } from "next";
+import { getOgImageUrl } from "./constants";
+
+const pageTitle = "Houdini Swap - Home";
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: pageTitle,
   openGraph: {
-    title: "Houdini Swap - Decentralized Cryptocurrency Exchange",
+    title: pageTitle,
     images: [
       {
-        url: "https://halil-atilla-houdini.vercel.app/api/og?title=Houdini%20Swap%20-%20Home",
+        url: getOgImageUrl(pageTitle),
         width: 1200,
         height: 630,
-        alt: "Houdini Swap - Home",
+        alt: pageTitle,
       },
     ],
   },
   twitter: {
-    title: "Houdini Swap - Home",
-    images: [
-      "https://halil-atilla-houdini.vercel.app/api/og?title=Houdini%20Swap%20-%20Home",
-    ],
+    title: pageTitle,
+    images: [getOgImageUrl(pageTitle)],
   },
 };
 

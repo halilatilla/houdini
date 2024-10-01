@@ -3,12 +3,15 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { SITE_URL, getOgImageUrl } from "./constants";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const defaultTitle = "Houdini Swap - Decentralized Cryptocurrency Exchange";
+
 export const metadata: Metadata = {
   title: {
-    default: "Houdini Swap - Decentralized Cryptocurrency Exchange",
+    default: defaultTitle,
     template: "%s | Houdini Swap",
   },
   description:
@@ -17,14 +20,14 @@ export const metadata: Metadata = {
     title: "Houdini Swap - Decentralized Cryptocurrency Exchange",
     description:
       "Securely swap cryptocurrencies with Houdini Swap. Fast, efficient, and private transactions across multiple chains.",
-    url: "https://halil-atilla-houdini.vercel.app/",
+    url: SITE_URL,
     siteName: "Houdini Swap",
     images: [
       {
-        url: "https://halil-atilla-houdini.vercel.app/api/og",
+        url: getOgImageUrl(defaultTitle),
         width: 1200,
         height: 630,
-        alt: "Houdini Swap - Secure, Fast, Decentralized Cryptocurrency Exchange",
+        alt: defaultTitle,
       },
     ],
     locale: "en_US",
@@ -35,7 +38,7 @@ export const metadata: Metadata = {
     title: "Houdini Swap - Decentralized Cryptocurrency Exchange",
     description:
       "Securely swap cryptocurrencies with Houdini Swap. Fast, efficient, and private transactions across multiple chains.",
-    images: ["https://halil-atilla-houdini.vercel.app/api/og"],
+    images: [getOgImageUrl(defaultTitle)],
     creator: "@halilatilla",
   },
 };

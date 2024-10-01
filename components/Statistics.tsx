@@ -9,22 +9,34 @@ export function Statistics() {
       <h2 id="statistics-heading" className="sr-only">
         Platform Statistics
       </h2>
-      <Card className="bg-white rounded-xl overflow-hidden">
+      <Card className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden">
         <CardContent className="p-4">
-          <h3 className="text-sm text-gray-500">Total Transactions</h3>
-          <p className="text-xl sm:text-2xl font-semibold">235.46k</p>
+          <h3 className="text-sm text-gray-500 dark:text-gray-400">
+            Total Transactions
+          </h3>
+          <p className="text-xl sm:text-2xl font-semibold dark:text-white">
+            235.46k
+          </p>
         </CardContent>
       </Card>
-      <Card className="bg-white rounded-xl overflow-hidden">
+      <Card className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden">
         <CardContent className="p-4">
-          <h3 className="text-sm text-gray-500">Total Swap Volume</h3>
-          <p className="text-xl sm:text-2xl font-semibold">$696.39M</p>
+          <h3 className="text-sm text-gray-500 dark:text-gray-400">
+            Total Swap Volume
+          </h3>
+          <p className="text-xl sm:text-2xl font-semibold dark:text-white">
+            $696.39M
+          </p>
         </CardContent>
       </Card>
-      <Card className="bg-white rounded-xl overflow-hidden">
+      <Card className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden">
         <CardContent className="p-4">
-          <h3 className="text-sm text-gray-500">$LOCK Buybacks</h3>
-          <p className="text-xl sm:text-2xl font-semibold">11.51M</p>
+          <h3 className="text-sm text-gray-500 dark:text-gray-400">
+            $LOCK Buybacks
+          </h3>
+          <p className="text-xl sm:text-2xl font-semibold dark:text-white">
+            11.51M
+          </p>
         </CardContent>
       </Card>
     </section>

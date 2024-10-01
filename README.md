@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Houdini Swap
+
+Houdini Swap is a decentralized cryptocurrency exchange platform built with Next.js. It offers secure, fast, and private transactions across multiple chains.
+
+## Features
+
+- Decentralized cryptocurrency swapping
+- Support for multiple chains
+- Private transaction mode
+- Real-time statistics
+- Responsive design for desktop and mobile
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) - React framework for server-side rendering and static site generation
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces
+- [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Radix UI](https://www.radix-ui.com/) - Unstyled, accessible UI components
+- [Lucide React](https://lucide.dev/) - Beautiful & consistent icon toolkit
+- [Vercel](https://vercel.com/) - Platform for deploying and hosting
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```
+   git clone https://github.com/your-username/houdini-swap.git
+   cd houdini-swap
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Run the development server:
 
-## Learn More
+   ```
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `app/`: Next.js app directory containing pages and layouts
+- `components/`: React components used throughout the application
+- `lib/`: Utility functions and shared code
+- `public/`: Static assets
 
-## Deploy on Vercel
+## Available Scripts
+
+- `npm run dev`: Runs the app in development mode
+- `npm run build`: Builds the app for production
+- `npm start`: Runs the built app in production mode
+- `npm run lint`: Lints the codebase using ESLint
+
+## Deployment
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+[MIT License](LICENSE)
+
+## Contact
+
+For any inquiries, please reach out to [@halilatilla](https://twitter.com/halilatilla) on Twitter.
